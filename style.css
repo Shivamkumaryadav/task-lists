@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(18, 31, 82);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.content{
+    width:auto;
+    margin-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 1rem;
+    background-color: white;
+
+}
+
+.container .content h1{
+    text-align: center;
+    margin-bottom: -0.8rem;
+    font-style: oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, rgba(226,66,249,0.94) 10.2%, rgba(79,147,249,1) 77.3% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+
+}
+
+#form #inputTask::placeholder{
+    color: white;
+    opacity: 0.6;
+    font-weight: 100;
+}
+#form #inputTask{
+    font-size: medium;
+    color: #fff;
+    font-weight: bold;
+    background: gray;
+    padding: 0.6rem;
+    border: none;
+    outline:none ;
+    border-radius: 0.5rem;
+}
+
+#form #inputBtn{
+    background: none;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    background-color: green;
+    color:#fff;
+    cursor: pointer;
+    font-size: large;
+}
+
+.task-list{
+    border-radius: .5rem;
+    padding-left: 0.4rem ;
+    padding-right: 0.4rem ;
+    margin-bottom: -1rem;
+}
+
+.task-list input{
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+    background-color: darkslategrey;
+    font-size: large;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    color:white;
+    cursor: pointer;
+}
+
+.edit{
+    margin-left: 0.9rem;
+    padding: 0.4rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color:white;
+    background-color: #2b065f;
+    /* background-image: linear-gradient(to right,#EC4899,#8B5Cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    cursor: pointer;
+    font-size: larger;
+    font-family:monospace;
+}
+
+.delete{
+    padding: 0.4rem;
+    color: white;
+    background-color: red;
+    /* margin-right: 2rem; */
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-family:monospace;
+}
+
+.errorText{
+    color: red;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    margin-top: -.0rem;
+    margin-bottom: 1rem;
+}
